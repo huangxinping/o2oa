@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM openjdk:8
 
 RUN mkdir /src
 COPY ./o2server /src
